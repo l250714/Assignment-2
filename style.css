@@ -122,5 +122,141 @@ h3{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 20px;
   color: blanchedalmond;
-
 }
+
+@media only screen and (max-width: 819px){
+    .body{
+        word-wrap: break-word;
+        width:100%;
+        height: auto;
+    }
+    .container{
+        display:flex;
+        flex: 1;
+        flex-direction: column;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: blanchedalmond;
+        align-content: center;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding:1px;
+        border-bottom: 0.5px;
+        border-color: rgb(57, 37, 12);
+        margin-bottom: 20px;
+        height:auto;
+        width:100%;
+    }
+    h1{
+        align-content: center;
+        text-align: center;
+        flex: 1;
+        margin-bottom: 2px;
+        font-size: 45px;
+        overflow-wrap: break-word;
+    }
+    h3{
+      align-content: center;
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      text-align: center;
+      color: antiquewhite;
+      font-size: medium;
+      flex: 1;
+    }
+    .main img{
+      align-items: center;
+      flex: 1;
+      max-width: 100%;
+      height: auto;
+      object-fit: cover;
+      margin:5px;
+    }
+    .buy-now{
+      background-color: rgb(41, 36, 28);
+      color:rgb(194, 189, 189);
+      align-items: center;
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      padding-bottom:0.1cm;
+      padding-left: 0.1cm;
+      padding-right:0.1cm;
+      padding-top: 0.1cm;
+      width:fit-content;
+      justify-content: center;
+      font-size: x-large;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      border: none;
+      flex: 1;
+      height: auto;
+    } 
+    .endorsement{
+      margin-top: 0px;
+    }
+}
+@media (min-width: 820px) and (max-width: 1200px) {
+  .body{
+        word-wrap: break-word;
+        max-width:900px;
+        height: auto;
+        margin:0px;
+  }
+  .container{
+      display:flex;
+      flex: 1;
+      flex-direction: column;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: blanchedalmond;
+      align-content: center;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      padding:2px;
+      border-bottom: 0.5px;
+      border-color: rgb(57, 37, 12);
+      margin-bottom: 0.75cm;
+      height:auto;
+      width:100%;
+  }
+  h1{
+      align-content: center;
+      text-align: center;
+      flex: 1;
+      margin-bottom: 2px;
+      font-size: 50px;
+      overflow-wrap: break-word;
+  }
+  h3{
+    align-content: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: antiquewhite;
+    font-size: large;
+    flex: 1;
+  }
+  .main img{
+    align-items: center;
+    flex: 1;
+    height: auto;
+    width:100%;
+    margin:5px;
+  }
+  .buy-now{
+    background-color: rgb(41, 36, 28);
+    color:rgb(194, 189, 189);
+    align-items: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-bottom:0.1cm;
+    padding-left: 0.1cm;
+    padding-right:0.1cm;
+    padding-top: 0.1cm;
+    width:fit-content;
+    justify-content: center;
+    font-size: 40px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: none;
+    flex: 1;
+    height: auto;
+  } 
+}
+
