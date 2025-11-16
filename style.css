@@ -262,9 +262,8 @@ h3{
 
 input[type=text] {
   border: 2px solid blanchedalmond;
-  background-color: black;
+  background-color: blanchedalmond;
   width:50%;
-  colour:blanchedalmond;
 }
 input[type=submit]{
   background-color: blanchedalmond;
