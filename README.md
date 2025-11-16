@@ -14,3 +14,9 @@ The header of the website is bold, and engages the audience in. It is accompanie
 The color palette is specifically chosen to align with the themes of the series, as well as be neutral enough to stand out for a wide audience.
 We then sroll to a side by side section of the popular characters that used the product. The pictures are highlighted to appeal to the audience that are familiar with the series.
 Lastly, the form is created with complete simplicity to match the simplicity of the overall website.
+
+## CSS-only components used
+### Hover effect on Buy Now Button
+### Animation on Buy Now Button
+### Customised Form:
+
