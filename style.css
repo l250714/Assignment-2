@@ -264,6 +264,7 @@ input[type=text] {
   border: 2px solid blanchedalmond;
   background-color: black;
   width:50%;
+  colour:blanchedalmond;
 }
 input[type=submit]{
   background-color: blanchedalmond;
