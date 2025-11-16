@@ -259,4 +259,8 @@ h3{
     height: auto;
   } 
 }
-
+.fname, lname{
+  background-color:black;
+  colour: blanchedalmond;
+  border-color:blanchedalmond;
+}
